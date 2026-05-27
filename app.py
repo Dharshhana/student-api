@@ -284,11 +284,29 @@ def delete_student(name):
     }), 200
 
 
+@app.route("/health", methods=["GET"])
+def health():
+    """Lightweight health check for uptime monitoring / cron jobs."""
+    df, err = read_file()
+    if err or df is None:
+        return jsonify({
+            "status": "unhealthy",
+            "csv": "unavailable",
+            "detail": err or "CSV file not found",
+        }), 503
+    return jsonify({
+        "status": "ok",
+        "csv": "available",
+        "students": len(df),
+    }), 200
+
+
 @app.route("/", methods=["GET"])
 def home():
     return jsonify({
         "message": "Student Details API",
         "endpoints": {
+            "GET    /health":           "Health check for uptime monitoring",
             "GET    /students":         "Read all students + validation issues",
             "POST   /students":         "Create a new student (JSON body)",
             "PUT    /students/<name>":  "Update an existing student (JSON body)",
