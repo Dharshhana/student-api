@@ -43,7 +43,6 @@ el.innerHTML=el.innerHTML
 
 @app.after_request
 def beautify_for_browser(response):
-    """If a browser requested this endpoint, render JSON as a styled HTML page."""
     ct = response.headers.get("Content-Type", "") or ""
     if not ct.startswith("application/json"):
         return response
