@@ -1,0 +1,31 @@
+ID,Name,Blood Group,College,Native,Mobile Number,Mentor,Department
+ST001,Arun Kumar,B+,VSB,Namakkal,9876543234.0,,CSE
+ST002,Nithin Kumar,B+,Kongu,Erode,9876543234.0,Vicky,Mech 
+ST003,Arun ,O+,MCAS,Namakkal,9876543234.0,Kavitha,IT
+ST004,Kumar,B+,MCAS,Namakkal,9876543234.0,Anu,AI
+ST005,Arjun,B+,VSB,Erode,9876543234.0,Arjun,AI & ML
+ST006,Arun raja,,MCAS,Chennai,9876543234.0,Vicky,CSE
+ST007,Akash,B-,KCT,Namakkal,9876543234.0,Kavitha,Mech 
+ST008,Kani,B+,MCAS,Erode,,Anu,IT
+ST009,Kavi,B-,VSB,Coimbatore,,Arjun,AI
+ST010,Krishika,B+,Kongu,Namakkal,9876543256.0,Vicky,AI & ML
+ST011,Kaviya,B+,KCT,Erode,9876543256.0,Kavitha,CSE
+ST012,Krishi,A+,MCAS,Coimbatore,9876543256.0,Anu,Mech 
+ST013,Arunika devi,B+,VSB,Namakkal,9876543256.0,Arjun,IT
+ST014,Aakash,B+,Kongu,Erode,9876543256.0,Vicky,AI
+ST015,Kavina,O+,KCT,Coimbatore,9876543256.0,Kavitha,AI & ML
+ST016,Viruksha,O+,,,9876543256.0,Anu,CSE
+ST017,Veena,O+,,,9876543256.0,Arjun,Mech 
+ST018,Arunaa,O+,MEC,Namakkal,9876543256.0,Vicky,IT
+ST019,Kumar,O+,PSG,Coimbatore,9876543256.0,Kavitha,AI
+ST020,Krishika,B+,KCI,Coimbatore,9876543256.0,Anu,
+ST021,Bala,B+,NEC,Erode,9876543256.0,Arjun,BCA
+ST022,Aruvika,B+,MEC,Namakkal,9876543256.0,Vicky,FT
+ST023,Aruna,B+,PSG,Coimbatore,9876543256.0,Kavitha,EEE
+ST024,Arunika,,KCI,Coimbatore,9876543256.0,Anu,ECE
+ST025,Archana,B-,NEC,Erode,9876543256.0,Arjun,BA
+ST026,Praveen,B-,MEC,Namakkal,9876543256.0,Vicky,MA
+ST027,Prithvi,B-,PSG,Coimbatore,9876543256.0,Kavitha,
+ST028,Priya,B-,KCI,Coimbatore,9876543256.0,Anu,
+ST029,Priyanka,B-,NEC,,9876543256.0,Arjun,
+ST031,Ravi,A+,KCT,Salem,,,CSE
