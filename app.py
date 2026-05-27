@@ -301,8 +301,21 @@ def health():
     }), 200
 
 
-@app.route("/", methods=["GET"])
+@app.route("/", methods=["GET","POST", "PUT", "DELETE"])
 def home():
+    if request.method in ["POST", "PUT", "DELETE"]:
+        return jsonify({
+            "message": f"{request.method} is not allowed on '/'",
+            "hint": "Use proper endpoints like /students for CRUD operations.",
+            "available_endpoints": {
+                "GET /students": "Read students",
+                "POST /students": "Create student",
+                "PUT /students/<name>": "Update student",
+                "DELETE /students/<name>": "Delete student ",
+                "GET /health": "Health check"
+            }
+        }), 200
+
     return jsonify({
         "message": "Student Details API",
         "endpoints": {
