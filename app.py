@@ -160,7 +160,7 @@ def find_student_index(df, identifier):
     return None
 
 
-# ---------- GET: read all students ----------
+# ---------- GET: read all students ----------_
 @app.route("/students", methods=["GET"])
 def get_students():
     df, err = read_file()
